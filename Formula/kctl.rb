@@ -14,7 +14,7 @@ class Kctl < Formula
   end
 
   def install
-    inreplace "bin/kctl", "/^CLIENT_HOME=/", "export KCTL_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
+    # inreplace "bin/kctl", "/^CLIENT_HOME=/", "export KCTL_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/kctl"
   end
