@@ -1,15 +1,15 @@
 class Kctl < Formula
   desc "A very special CLI"
   homepage "https://neilrichardson.online"
-  url "https://neilrichardson.online/versions/0.1.1/1c7fabd/kctl-v0.1.1-1c7fabd-darwin-arm64.tar.xz"
-  sha256 "07a456975cd13b468982487de0c3e5d2b68bd20b6999ff443f1cc6fb65d55b28"
-  version "0.1.1"
+  url "https://neilrichardson.online/versions/0.1.2/154b633/kctl-v0.1.2-154b633-darwin-arm64.tar.xz"
+  sha256 "854b702b8eef1074011986e9a834aeb26133277b4d2bb93737fdd1d8a963bf96"
+  version "0.1.2"
   version_scheme 1
 
   on_macos do
     on_intel do
-      url "https://neilrichardson.online/versions/0.1.1/1c7fabd/kctl-v0.1.1-1c7fabd-darwin-x64.tar.xz"
-      sha256 "1fc2e4d8ac42cfeb97eb98f047967f597e0abfab81ca18a88c5cac2800c01ed5"
+      url "https://neilrichardson.online/versions/0.1.2/154b633/kctl-v0.1.2-154b633-darwin-x64.tar.xz"
+      sha256 "64645e93782985c9281893be008e4402eea98b26a3de015e59edc0628f40367f"
     end
   end
 
